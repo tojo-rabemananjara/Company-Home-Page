@@ -1,0 +1,37 @@
+html {
+    font-size: 16px;
+
+}
+
+nav {
+    padding: 1.25rem;
+    border-bottom: rgb(195, 196, 197) 1px solid;
+    background-color: whitesmoke;
+}
+
+nav a {
+    display: block;
+    width: 12.5rem;
+}
+
+.logo {
+    width: 12.5rem;
+    height: 3.125rem;
+    background-image: url(../images/logo2.png);
+    background-size: cover;
+    transition: all 0.8s linear 0.2s;
+}
+
+.logo:hover {
+    background-image: url(../images/logo1.png);
+    transition: all 0.8s linear 0.1s;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+}
+
+.banner img {
+    width: 100%;
+}
