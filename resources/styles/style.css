@@ -19,12 +19,12 @@ nav a {
     height: 3.125rem;
     background-image: url(../images/logo2.png);
     background-size: cover;
-    transition: all 0.8s linear 0.2s;
+    transition: all 0.4s linear 0.2s;
 }
 
 .logo:hover {
     background-image: url(../images/logo1.png);
-    transition: all 0.8s linear 0.1s;
+    transition: all 0.4s linear 0.1s;
 }
 
 .banner {
