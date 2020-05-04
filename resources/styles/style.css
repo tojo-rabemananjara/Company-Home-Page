@@ -25,15 +25,37 @@ html {
     }
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (min-width: 541px) and (max-width: 660px) {
     html {
         font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 491px) and (max-width: 540px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    html {
+        font-size: 8px;
     }
 }
 
 h1 {
     font-size: 2.5rem;
     font-weight: bold;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: normal;
 }
 
 a:link,
@@ -56,10 +78,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     text-shadow: 0.125rem 0.125rem 0.5rem rgb(128, 128, 128);
+    z-index: 1;
 }
 
 nav li:hover {
-    text-shadow: none;
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(168, 137, 70);
     transition: 0.4s all linear 0.2s;
 }
 
@@ -165,6 +188,10 @@ section {
     text-transform: lowercase;
 }
 
+.content {
+    display: flex;
+}
+
 .image-container {
     width: 100%;
 }
@@ -172,5 +199,52 @@ section {
 #mission .image-container {
     background-image: url(../images/mission.jpg);
     background-size: cover;
-    height: 47rem;
+    height: 48rem;
+
+}
+
+#mission div.content {
+    justify-content: center;
+    align-items: center;
+}
+
+#mission-statement {
+    height: 24rem;
+    width: 75%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    background-image: linear-gradient(215deg, rgba(255, 166, 0, 0.8), rgba(255, 166, 0, 0) 70%),
+    linear-gradient(125deg, rgba(128, 0, 128, 0.8), rgba(128, 0, 128, 0) 70%),
+    linear-gradient(335deg, rgba(0, 183, 255, 0.8), rgba(0, 183, 255, 0) 70%);
+    color: rgb(255, 255, 255);
+    padding: 1rem 10%;
+    text-align: center;
+    line-height: 1.2;
+    font-family: 'Enriqueta', serif;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+    #mission-statement {
+        width: 100%;
+        height: 48rem;
+        padding: 15rem 10%;
+        color: rgb(255, 255, 255);
+    }
+}
+
+#mission-statement h3 {
+    font-family: 'Enriqueta', serif;
+    text-transform: uppercase;
+}
+
+#mission-statement p {
+    font-family: 'Kanit', sans-serif;
+}
+
+#mission-statement span {
+    font-family: 'Jacques Francois Shadow', cursive;
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(255, 255, 255);
 }
