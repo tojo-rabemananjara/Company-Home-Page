@@ -292,7 +292,7 @@ section {
     background-image: repeating-linear-gradient(45deg, rgba(79, 117, 3, 0.25) 0 1rem, transparent 1rem 2rem),
     repeating-linear-gradient(135deg, rgba(79, 117, 3, 0.25) 0 1rem, transparent 1rem 2rem);
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-content: space-between;
 }
 
@@ -329,6 +329,10 @@ section {
 .product h4 {
     font-family: 'Enriqueta', serif;
     text-transform: capitalize;
+}
+
+#team {
+    margin-bottom: 0;
 }
 
 #team .image-container {
@@ -385,21 +389,31 @@ section {
 
 footer {
     width: 100%;
-    background-image: linear-gradient(215deg, rgba(255, 166, 0, 0.8), rgba(255, 166, 0, 0) 70%),
-    linear-gradient(125deg, rgba(128, 0, 128, 0.8), rgba(128, 0, 128, 0) 70%),
-    linear-gradient(335deg, rgba(0, 183, 255, 0.8), rgba(0, 183, 255, 0) 70%);
-}
-
-footer:hover {
     background-color: rgb(230, 230, 250);
     background-image: repeating-linear-gradient(45deg, rgba(79, 117, 3, 0.25) 0 1rem, transparent 1rem 2rem),
-    repeating-linear-gradient(135deg, rgba(79, 117, 3, 0.25) 0 1rem, transparent 1rem 2rem);
+    repeating-linear-gradient(135deg, rgba(79, 117, 3, 0.25) 0 1rem, transparent 1rem 2rem);      
 }
 
 footer h2 {
     font-family: 'Jacques Francois Shadow', cursive;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: bolder;
     color: rgb(0, 0, 0);
     text-align: center;
+}
+
+footer p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 100;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(128, 128, 128);  
+}
+
+footer div.background {
+    background-color: rgba(245, 245, 245, 0.1);
+    padding: 3rem 1.5rem;
 }
