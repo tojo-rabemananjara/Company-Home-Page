@@ -63,7 +63,14 @@ html {
     }
 
     * {
-        scroll-padding-top: 1.75rem;
+        scroll-padding-top: 0;
+    }
+
+    section#mission,
+    section#offer,
+    section#team {
+        padding-top: 1.75rem;
+        margin: 3rem auto;
     }
 }
 
