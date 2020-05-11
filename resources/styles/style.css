@@ -409,6 +409,17 @@ footer h2 {
     text-align: center;
 }
 
+footer h5 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 0.625rem;
+    font-weight: 100;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(128, 128, 128);
+}
+
 footer p {
     font-family: 'Kanit', sans-serif;
     font-size: 1.25rem;
