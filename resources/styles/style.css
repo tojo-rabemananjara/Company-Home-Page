@@ -420,6 +420,10 @@ footer h5 {
     text-shadow: 0.125rem 0.125rem 0.5rem rgb(128, 128, 128);
 }
 
+footer a {
+    text-decoration: underline;
+}
+
 footer p {
     font-family: 'Kanit', sans-serif;
     font-size: 1.25rem;
