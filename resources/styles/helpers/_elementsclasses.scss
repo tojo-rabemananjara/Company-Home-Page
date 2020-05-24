@@ -1,0 +1,96 @@
+//3. Elements and classes
+
+/*Elements*/
+
+* {
+    box-sizing: border-box;
+    scroll-padding-top: 4.475rem;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+    background-color: $whitesmoke;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    margin: 4.5rem auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/*Classes*/
+
+.title {
+    width: 100%;
+    padding: 2.5rem;;
+    font-family: $jfs;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: fade-out($black, 0.4);
+}
+
+.image-container {
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@each $section in $sections {
+    ##{$section} {
+        .image-container {
+            background-image: url(../images/#{$section}.jpg);
+        }
+    }
+}
+
+.label {
+    width: 18.75rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    line-height: 1.2;
+    color: $white;    
+}

@@ -1,0 +1,20 @@
+//2. Mixins and functions
+
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin flex-f($flow, $align) {
+    display: flex;
+    flex-flow: $flow;
+    align-items: $align;
+}
+
+@mixin flex-j($flow, $justify) {
+    display: flex;
+    flex-flow: $flow;
+    justify-content: $justify;
+}

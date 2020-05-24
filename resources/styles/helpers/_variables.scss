@@ -1,0 +1,32 @@
+//1. Variables
+
+//Colours
+
+$whitesmoke: hsl(0, 0%, 96%);
+$grey-sky: hsl(210, 2%, 77%);
+$cloudy-sky: hsl(240, 67%, 94%);
+$grey: hsl(0, 0%, 50%);
+$durty-orange: hsl(41, 41%, 47%);
+$rainbow: linear-gradient(215deg, hsla(39, 100%, 50%, 0.8), hsla(39, 100%, 50%, 0) 70%),
+linear-gradient(125deg, hsla(300, 100%, 25%, 0.8), hsla(300, 100%, 25%, 0) 70%),
+linear-gradient(335deg, hsla(197, 100%, 50%, 0.8), hsla(197, 100%, 50%, 0) 70%);
+$lattice: repeating-linear-gradient(45deg, hsla(80, 95%, 24%, 0.25) 0 1rem, transparent 1rem 2rem),
+repeating-linear-gradient(135deg, hsla(80, 95%, 24%, 0.25) 0 1rem, transparent 1rem 2rem);
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
+
+//Fonts
+
+$kanit: 'Kanit', sans-serif;
+$jfs: 'Jacques Francois Shadow', cursive;
+$enriqueta: 'Enriqueta', serif;
+
+//Properties
+
+$r-sb-c: row, space-between, center;
+$d-fs-c: default, flex-start, center;
+$r-c-c: row, center, center;
+$r-fe-c: row, flex-end, center;
+$rn-c: row nowrap, center;
+$cn-sa: column nowrap, space-around;
+$sections: (mission, team);
