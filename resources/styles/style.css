@@ -390,8 +390,11 @@ footer .background h5 #unsplash {
     position: relative;
     top: 4.475rem;
   }
-}
-@media only screen and (max-width: 600px) {
+
+  .image-container {
+    background-attachment: scroll;
+  }
+
   #mission .image-container .content #mission-statement {
     width: 100%;
     height: 48rem;
